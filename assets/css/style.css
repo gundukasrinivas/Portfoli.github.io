@@ -61,9 +61,11 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   
   position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
+  height: 520px;
+  top: 0px;
+  left:auto;
+  right: 20px;
+  bottom: 0px;
   width: 272px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
@@ -75,7 +77,6 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid rgb(255, 252, 53);
   margin-bottom: 50px;
   margin-top: 20px;
-  margin-left: 960px;
 
 
 }
