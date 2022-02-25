@@ -61,10 +61,10 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   
   position: fixed;
-  top: 70px;
-  left: 1195px;
-  bottom: 20px;
-  width: 300px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 272px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
   transition: all 0.5s;
@@ -73,7 +73,9 @@ h1, h2, h3, h4, h5, h6 {
   overflow-y: auto;
   border-radius: 50px;
   border: 2px solid rgb(255, 252, 53);
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-left: 960px;
 
 
 }
